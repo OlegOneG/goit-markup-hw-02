@@ -31,7 +31,6 @@ body {
 
 .menu__list {
     list-style: none;
-    text-decoration: none;
 }
 
 .menu__item {
@@ -42,14 +41,11 @@ body {
     text-decoration: none;
     font-weight: 500;
     color: #2E2F42;
-    transition: color 0.4s;
+    transition: color 0.9s;
 }
 
-.menu__link:focus {
-    color: #404BBF;
-}
-
-.menu__link:focus {
+.menu__link:focus,
+.menu__link:hover {
     color: #404BBF;
 }
 
