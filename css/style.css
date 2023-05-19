@@ -45,7 +45,8 @@ body {
     transition: color 0.4s;
 }
 
-.menu__link:active {
+.menu__link:focus, 
+.menu__link:hover {
     color: #404BBF;
 }
 
@@ -58,12 +59,14 @@ body {
 }
 
 .contact__link {
+    font-style: normal;
     text-decoration: none;
     color: #434455;
-    transition: color 0.4s;
+    transition: color 0.9s;
 }
 
-.contact__link:active {
+.contact__link:focus,
+.contact__link:hover {
     color: #404BBF;
 }
 
@@ -174,9 +177,9 @@ body {
 }
 
 .team__title {
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -189,6 +192,22 @@ body {
 
 .team__item {
     background-color: #ffffff;
+}
+
+.team__img {
+
+}
+
+.team__name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team__position {
+
 }
 
 .footer {
