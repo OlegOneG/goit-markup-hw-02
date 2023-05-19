@@ -45,9 +45,16 @@ body {
     transition: color 0.4s;
 }
 
-.menu__link:focus, 
-.menu__link:hover {
+.menu__link:focus {
     color: #404BBF;
+}
+
+.menu__link:focus {
+    color: #404BBF;
+}
+
+.address {
+    font-style: normal;
 }
 
 .contact__list {
@@ -59,7 +66,6 @@ body {
 }
 
 .contact__link {
-    font-style: normal;
     text-decoration: none;
     color: #434455;
     transition: color 0.9s;
