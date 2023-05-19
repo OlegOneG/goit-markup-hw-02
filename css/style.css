@@ -163,6 +163,7 @@ body {
 }
 
 .portfolio__btn:hover {
+    color: #FFFFFF;
     background-color: #404BBF;
 }
 
@@ -173,6 +174,8 @@ body {
 .portfolio__link {
     text-decoration: none;
 }
+
+
 
 .portfolio__subtitle {
     font-family: "Roboto", sans-serif;
