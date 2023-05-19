@@ -118,9 +118,7 @@ body {
 }
 
 .portfolio__subtitle {
-    /* font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2; */
+
 }
 
 .portfolio__text {
@@ -176,8 +174,9 @@ body {
 }
 
 .team__title {
-    font-size: 36px;
-    line-height: 1.11;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
