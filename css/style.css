@@ -76,6 +76,7 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.07;
     color: #ffffff;
+    text-align: center;
 }
 
 .button {
@@ -86,6 +87,7 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -116,13 +118,65 @@ body {
 }
 
 .portfolio__subtitle {
-    font-weight: 500;
+    /* font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.2; */
 }
 
 .portfolio__text {
     color: #434455;
+}
+
+.hidden {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.preference__list {
+    list-style: none;
+}
+
+.preference__item {
+
+}
+
+.preference__subtitle {
+
+}
+
+.preference__text {
+
+}
+
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.services__content {
+    list-style: none;
+}
+
+.services__item {
+
+}
+
+.team {
+    background-color: #F4F4FD ;
+}
+
+.team__list {
+    list-style: none;
+}
+
+.team__item {
+    background-color: #ffffff;
 }
 
 .footer {
