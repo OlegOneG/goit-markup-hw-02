@@ -56,22 +56,22 @@ body {
     font-style: normal;
 }
 
-.contact__list {
+.address__list {
     list-style: none;
 }
 
-.contact__item {
+.address__item {
 
 }
 
-.contact__link {
+.address__link {
     text-decoration: none;
     color: #434455;
     transition: color 0.9s;
 }
 
-.contact__link:focus,
-.contact__link:hover {
+.address__link:focus,
+.address__link:hover {
     color: #404BBF;
 }
 
