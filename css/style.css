@@ -49,6 +49,10 @@ body {
     transition: color 0.9s;
 }
 
+.menu__link:focus {
+    color: #404BBF;
+}
+
 .menu__link:hover {
     color: #404BBF;
 }
@@ -71,7 +75,10 @@ body {
     transition: color 0.9s;
 }
 
-.contact__link:focus,
+.contact__link:focus {
+    color: #404BBF;
+}
+
 .contact__link:hover {
     color: #404BBF;
 }
