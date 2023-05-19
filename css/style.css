@@ -1,6 +1,7 @@
 :root {
 
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -116,6 +117,33 @@ body {
     background-color: #404BBF;
 }
 
+.preference__title {
+    display: none;
+}
+
+.preference__list {
+    list-style: none;
+}
+
+.preference__item {
+
+}
+
+.preference__subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.preference__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .portfolio__filter {
     list-style: none;
 }
@@ -142,7 +170,6 @@ body {
     list-style: none;
 }
 
-
 .portfolio__subtitle {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -154,33 +181,6 @@ body {
 
 .portfolio__text {
 
-}
-
-.preference__title {
-    display: none;
-}
-
-.preference__list {
-    list-style: none;
-}
-
-.preference__item {
-
-}
-
-.preference__subtitle {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.preference__text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .services__title {
