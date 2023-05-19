@@ -167,6 +167,11 @@ body {
     background-color: #404BBF;
 }
 
+.portfolio__btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
 .portfolio__content {
     list-style: none;
 }
