@@ -170,6 +170,10 @@ body {
     list-style: none;
 }
 
+.portfolio__link {
+    text-decoration: none;
+}
+
 .portfolio__subtitle {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -180,7 +184,10 @@ body {
 }
 
 .portfolio__text {
-
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .services__title {
