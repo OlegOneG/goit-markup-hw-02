@@ -1,5 +1,10 @@
 :root {
-
+    --text-color: #434455;
+    --white-color: #ffffff;
+    --overlay-color: #2e2f42;
+    --light-color: #f4f4fd;
+    --primary-color: #4d5ae5;
+    --pressed-color: #404bbf;
 }
 
 body {
@@ -8,12 +13,16 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color: #FFFFFF;
-    color: #434455;
+    background-color: var(--white-background-color);
+    color: var(--text-color);
+}
+
+.list {
+    list-style: none;
 }
 
 .header {
-    background-color: #ffffff;
+    background-color: var(--white-background-color);
 }
 
 .logo {
@@ -25,11 +34,11 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #4d5ae5;
+    color: var(--primary-color);
 }
 
 .logo__text {
-    color: #2E2F42;
+    color: var(--overlay-color);
 }
 
 .menu__list {
@@ -45,16 +54,16 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--overlay-color);
     text-decoration: none;
 }
 
 .menu__link:hover {
-    color: #404BBF;
+    color: var(--pressed-color);
 }
 
 .menu__link:focus {
-    color: #404BBF;
+    color: var(--pressed-color);
 }
 
 .address {
@@ -71,26 +80,26 @@ body {
 
 .contact__link {
     text-decoration: none;
-    color: #434455;
+    color: var(--text-color);
 }
 
 .contact__link:focus {
-    color: #404BBF;
+    color: var(--pressed-color);
 }
 
 .contact__link:hover {
-    color: #404BBF;
+    color: var(--pressed-color);
 }
 
 .hero {
-    background-color: #2e2f42;
+    background-color: var(--overlay-color);
 }
 
 .hero__title {
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
-    color: #ffffff;
+    color: var(--white-color);
     text-align: center;
 }
 
@@ -100,17 +109,17 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--white-color);
+    background-color: var(--primary-color);
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #404BBF;
+    background-color: var(--pressed-color);
 }
 
 .button:focus {
-    background-color: #404BBF;
+    background-color: var(--pressed-color);
 }
 
 .preference__title {
@@ -130,12 +139,11 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--overlay-color);
 }
 
 .preference__text {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -154,19 +162,19 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
-    background-color: #F4F4FD;
+    color: var(--primary-color);
+    background-color: var(--light-color);
     cursor: pointer;
 }
 
 .portfolio__btn:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white-color);
+    background-color: var(--pressed-color);
 }
 
 .portfolio__btn:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white-color);
+    background-color: var(--pressed-color);
 }
 
 .portfolio__content {
@@ -184,14 +192,14 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--overlay-color);
 }
 
 .portfolio__text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
 .services__title {
@@ -200,7 +208,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    color: #2e2f42;
+    color: var(--overlay-color);
 }
 
 .services__content {
@@ -212,7 +220,7 @@ body {
 }
 
 .team {
-    background-color: #F4F4FD ;
+    background-color: var(--light-color);
 }
 
 .team__title {
@@ -222,7 +230,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    color: #2e2f42;
+    color: var(--overlay-color);
 }
 
 .team__list {
@@ -230,7 +238,7 @@ body {
 }
 
 .team__item {
-    background-color: #ffffff;
+    background-color: var(--white-color);
 }
 
 .team__img {
@@ -242,7 +250,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--overlay-color);
 }
 
 .team__position {
@@ -250,13 +258,13 @@ body {
 }
 
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--overlay-color);
 }
 
 .logo__text-footer {
-    color: #F4F4FD;
+    color: var(--light-color);
 }
 
 .footer__text {
-    color: #F4F4FD;
+    color: var(--light-color);
 }
