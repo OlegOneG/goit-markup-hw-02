@@ -17,6 +17,10 @@ body {
     color: var(--text-color);
 }
 
+.link {
+    text-decoration: none;
+}
+
 .list {
     list-style: none;
 }
@@ -33,7 +37,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     color: var(--primary-color);
 }
 
@@ -42,7 +45,7 @@ body {
 }
 
 .menu__list {
-    list-style: none;
+
 }
 
 .menu__item {
@@ -55,7 +58,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--overlay-color);
-    text-decoration: none;
 }
 
 .menu__link:hover {
@@ -71,7 +73,7 @@ body {
 }
 
 .contact__list {
-    list-style: none;
+
 }
 
 .contact__item {
@@ -79,7 +81,6 @@ body {
 }
 
 .contact__link {
-    text-decoration: none;
     color: var(--text-color);
 }
 
@@ -127,7 +128,7 @@ body {
 }
 
 .preference__list {
-    list-style: none;
+
 }
 
 .preference__item {
@@ -153,7 +154,7 @@ body {
 }
 
 .portfolio__filter {
-    list-style: none;
+
 }
 
 .portfolio__btn {
@@ -178,13 +179,12 @@ body {
 }
 
 .portfolio__content {
-    list-style: none;
+
 }
 
 .portfolio__link {
-    text-decoration: none;
-}
 
+}
 
 .portfolio__subtitle {
     font-family: "Roboto", sans-serif;
@@ -212,7 +212,7 @@ body {
 }
 
 .services__content {
-    list-style: none;
+
 }
 
 .services__item {
@@ -234,7 +234,7 @@ body {
 }
 
 .team__list {
-    list-style: none;
+
 }
 
 .team__item {
